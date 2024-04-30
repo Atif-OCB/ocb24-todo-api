@@ -11,7 +11,7 @@ import docsSpecs from './config/docs';
 dotenv.config();
 
 const app: Application = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 app.use(bodyParser.json());
 app.use(cors());

@@ -9,8 +9,6 @@ if (!MONGODB_URI) {
   process.exit(1);
 }
 
-console.log(MONGODB_URI);
-
 mongoose.connect(MONGODB_URI);
 
 const db = mongoose.connection;
